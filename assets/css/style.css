@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #D8D8D8;
+    font-family: fantasy;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 5vh;
+    font-size: 3rem;
+}
+
+#startGame {
+    padding: .5% 2%;
+    display: block;
+    margin: 2% auto;
+}
+
+#outputName {
+    height: 5vh;
+    text-align: center;
+    margin-bottom: 3%;
+    font-size: 2rem;
+}
+
+section {
+    width: 28vw;
+    height: 60vh;
+    margin: 0 auto;
+    display: flex;
+    gap: 0 30px;
+}
+
+article:nth-of-type(1) {
+    width: 15vw;
+    background-color: #1F1615;
+    height: 500px;
+    text-align: center;
+    border: 3px solid gold;
+}
+
+img {
+    margin-top: 12%;
+    object-fit: fill;
+    height: 220px;
+    width: 200px;
+}
+
+#outputNameAndAgeBox {
+    color: #C8A68B;
+    width: 10.5vw;
+    height: 30px;
+    margin: 2% auto 5% auto;
+    text-align: center;
+}
+
+#outputNameAndAge {
+    padding-top: 3%;
+}
+
+#descriptionBox {
+    margin: 20% auto;
+    background-color: #A3846E;
+    width: 10.5vw;
+    height: 120px;
+    text-align: left;
+}
+
+#profession {
+    padding: 3% 2%;
+}
+
+#description {
+    padding: 5% 0 0 2%;
+}
+
+article:nth-of-type(2) {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin-top: 15%;
+}
+
+article:nth-of-type(2) div {
+    background-color: #1F1615;
+    width: 200px;
+    height: 100px;
+    border: 3px solid gold;
+    text-align: center;
+    margin-top: 5%;
+}
+
+article:nth-of-type(2) div p {
+    color: #A3846E;
+    margin-top: 20%;
+    font-size: 1.2rem;
+}
